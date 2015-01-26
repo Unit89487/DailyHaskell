@@ -12,3 +12,8 @@ harmonicSeries b = 1 + (1/2) + (1/4) + (1/5) + (1/6) + b
 
 harmonicSeries b = b + (1/b) + (1/b-1) + (1/b-2) + (1/b-3)
 
+
+
+--continued fraction
+continuedFraction z = z + (1/z) + (1/(1/z)) + (1/(1/(1/z)) + (1/(1/(1/(1/z))))
+
