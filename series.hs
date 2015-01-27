@@ -17,3 +17,6 @@ harmonicSeries b = b + (1/b) + (1/b-1) + (1/b-2) + (1/b-3)
 --continued fraction
 continuedFraction z = z + (1/z) + (1/(1/z)) + (1/(1/(1/z)) + (1/(1/(1/(1/z))))
 
+
+summation v = if v < 1000 then v + (summation (v + 1) else v 
+
