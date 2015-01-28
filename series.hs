@@ -20,3 +20,7 @@ continuedFraction z = z + (1/z) + (1/(1/z)) + (1/(1/(1/z)) + (1/(1/(1/(1/z))))
 
 summation v = if v < 1000 then v + (summation (v + 1) else v 
 
+
+
+--Definitely not a series 
+whatever x = sqrt(4 - x^2)
