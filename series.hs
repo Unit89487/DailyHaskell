@@ -30,3 +30,10 @@ whatever x = sqrt(4 - x^2)
 
 sineSquared q = (sin(q))^2
 sinePlusPi h = sin h + pi 
+
+--
+--Give it two negative numbers 
+--"We have already seen that the squares of numbers, negative as well as positive, are always positive, or affected by the sign +,; having
+--shown that -a multiplied by -a gives +aa, the same as the product of +a by +a: wherefore, in the preceding section, we supposed that all
+--the numbers, of which it was required to extract the square roots, were positive." -Leonhard Friggin Euler. 
+turnPositive negativeQuantity secondNegativeQuantity = negativeQuantity * secondNegativeQuantity
