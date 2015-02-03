@@ -37,3 +37,16 @@ sinePlusPi h = sin h + pi
 --shown that -a multiplied by -a gives +aa, the same as the product of +a by +a: wherefore, in the preceding section, we supposed that all
 --the numbers, of which it was required to extract the square roots, were positive." -Leonhard Friggin Euler. 
 turnPositive negativeQuantity secondNegativeQuantity = negativeQuantity * secondNegativeQuantity
+
+
+--
+--Name a quantity! By Euler's definition of "That which may be subject to increase or dimunition is known as magnitude or quantity"
+
+daysInAWeek = 7
+sleepList = [8, 5, 5, 4, 8, 7, 8]
+--averageHoursAwake = each element of sleepList - 24, summed, and divided by sleepList.count. 
+
+
+
+
+
